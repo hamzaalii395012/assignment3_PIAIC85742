@@ -1,0 +1,15 @@
+var addColor = [];
+addColor.unshift("red");
+console.log(addColor);
+addColor.push("blue");
+console.log(addColor);
+addColor.unshift("purple","green");
+console.log(addColor);
+addColor.shift();
+console.log(addColor);
+addColor.pop();
+console.log(addColor);
+addColor.splice(1,0,"pink","orange");
+console.log(addColor);
+addColor.splice(1,2);
+console.log(addColor);

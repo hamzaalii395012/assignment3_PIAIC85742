@@ -1,0 +1,10 @@
+var scoreStudents1 = 320;
+var scoreStudents2 = 230;
+var scoreStudents3 = 480;
+var totalMarks = 500;
+var percentage1 = scoreStudents1 / totalMarks * 100;
+var percentage2 = scoreStudents2 / totalMarks * 100;
+var percentage3 = scoreStudents3 / totalMarks * 100;
+document.write("Score Of Michael Is "+scoreStudents1+". Percentage : "+percentage1+"<br/>");
+document.write("Score Of John Is "+scoreStudents2+". Percentage : "+percentage2+"<br/>");
+document.write("Score Of Tony Is "+scoreStudents3+". Percentage : "+percentage3+"<br/>");
